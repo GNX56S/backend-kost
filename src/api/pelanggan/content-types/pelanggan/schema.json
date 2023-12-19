@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pelanggans",
+  "info": {
+    "singularName": "pelanggan",
+    "pluralName": "pelanggans",
+    "displayName": "pelanggan",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama": {
+      "type": "string"
+    },
+    "Asal": {
+      "type": "string"
+    },
+    "foto": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
